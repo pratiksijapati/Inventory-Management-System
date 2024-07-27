@@ -1,0 +1,72 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the entire page */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header with a background color and centered text */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Center the main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 500px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style table headers */
+table th {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: left;
+}
+
+/* Style table rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table td {
+    padding: 15px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Add some responsive styling for smaller screens */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    table th, table td {
+        padding: 5px;
+    }
+}

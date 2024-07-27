@@ -1,0 +1,93 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the entire page */
+body {
+    background-color: #292929;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header with a background color and centered text */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Center the main content */
+main {
+    background-color: #123;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 450px;
+}
+
+/* Style the form */
+form {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+}
+
+/* Style form labels and input fields */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select, input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Add some responsive styling for smaller screens */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+    form {
+        padding: 10px;
+    }
+    label {
+        font-size: 16px;
+    }
+    select, input[type="number"] {
+        font-size: 14px;
+    }
+    input[type="submit"] {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+}
