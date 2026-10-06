@@ -1,0 +1,7 @@
+# Local environment / editor files
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
